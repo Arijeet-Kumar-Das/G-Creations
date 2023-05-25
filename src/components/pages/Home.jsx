@@ -34,23 +34,22 @@ const Home = () => {
         <Box display="flex" justifyContent="center">
           <Box display="flex" flexDirection="column">
             <motion.div
-              initial={{ y: 1000 }} // Initial position (above the screen)
-              animate={{ y: 0 }} // Final position (center of the screen)
-              transition={{ duration: 2, type: "spring", damping: 10 }} // Updated animation duration
+              initial={{ y: 1000 }}
+              animate={{ y: 0 }}
+              transition={{ duration: 2, type: "spring", damping: 10 }}
             >
               <Box display="flex" flexDirection="column" gap={2}>
                 <Typography
                   variant="h3"
                   sx={{ color: "white", marginTop: "100px" }}
                 >
-                  We build an awesome software
+                  Techno Master Software Solutions
                 </Typography>
                 <Typography
                   variant="p"
-                  sx={{ color: "white", p: { xs: 5, sm: 3, md: 0 } }}
+                  sx={{ p: { xs: 5, sm: 3, md: 0 }, color: "white" }}
                 >
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Tempore quibusdam reiciendis temporibus.
+                  We build an awesome software
                 </Typography>
                 <Link
                   to="what we do"
@@ -61,9 +60,8 @@ const Home = () => {
                 >
                   <IconButton
                     sx={{
-                      backgroundColor: "#7F00FF",
+                      backgroundColor: "#F4D03F",
                       width: "40px",
-                      margin: "50px auto",
                     }}
                   >
                     <ArrowDropDownIcon
@@ -89,11 +87,9 @@ const Home = () => {
                 alignItems="center"
                 flexDirection="column"
               >
-                <img src={w1} alt="" width="250px" height="200px" />
+                <img src={w1} alt="" width="200px" height="150px" />
                 <Box display="flex" flexDirection="column" gap={1}>
-                  <Typography variant="h6" sx={{ color: "#7F00FF" }}>
-                    Web Development
-                  </Typography>
+                  <Typography variant="h6">Web Development</Typography>
                   <Typography variant="p" sx={{ color: "grey" }}>
                     Responsive | e-Com{" "}
                   </Typography>
@@ -107,11 +103,9 @@ const Home = () => {
                 alignItems="center"
                 flexDirection="column"
               >
-                <img src={w2} alt="" width="250px" height="200px" />
+                <img src={w2} alt="" width="200px" height="150px" />
                 <Box display="flex" flexDirection="column" gap={1}>
-                  <Typography variant="h6" sx={{ color: "#7F00FF" }}>
-                    App Development
-                  </Typography>
+                  <Typography variant="h6">App Development</Typography>
                   <Typography variant="p" sx={{ color: "grey" }}>
                     Open Source | Android | IOS
                   </Typography>
@@ -125,11 +119,9 @@ const Home = () => {
                 alignItems="center"
                 flexDirection="column"
               >
-                <img src={w3} alt="" width="250px" height="200px" />
+                <img src={w3} alt="" width="230px" height="150px" />
                 <Box display="flex" flexDirection="column" gap={1}>
-                  <Typography variant="h6" sx={{ color: "#7F00FF" }}>
-                    Project Management
-                  </Typography>
+                  <Typography variant="h6">Project Management</Typography>
                   <Typography variant="p" sx={{ color: "grey" }}>
                     Facebook | Google
                   </Typography>
@@ -143,11 +135,9 @@ const Home = () => {
                 alignItems="center"
                 flexDirection="column"
               >
-                <img src={w4} alt="" width="250px" height="200px" />
+                <img src={w4} alt="" width="200px" height="150px" />
                 <Box display="flex" flexDirection="column" gap={1}>
-                  <Typography variant="h6" sx={{ color: "#7F00FF" }}>
-                    Security and Privacy
-                  </Typography>
+                  <Typography variant="h6">Security and Privacy</Typography>
                   <Typography variant="p" sx={{ color: "grey" }}>
                     Authentication | Data Security
                   </Typography>
@@ -184,16 +174,13 @@ const Home = () => {
                 marginTop: "50px",
               }}
             >
-              <IconButton sx={{ p: 2, backgroundColor: "#7F00FF" }}>
+              <IconButton sx={{ p: 2, backgroundColor: "#F4D03F" }}>
                 <PublicIcon
                   sx={{ color: "white", width: "50px", height: "50px" }}
                 />
               </IconButton>
               <Box display="flex" flexDirection="column" gap={1}>
-                <Typography
-                  variant="h6"
-                  sx={{ color: "#7F00FF", fontWeight: "bold" }}
-                >
+                <Typography variant="h6" sx={{ fontWeight: "bold" }}>
                   Domain Registration
                 </Typography>
                 <Typography variant="p" sx={{ color: "grey" }}>
@@ -216,16 +203,13 @@ const Home = () => {
                 marginTop: "50px",
               }}
             >
-              <IconButton sx={{ p: 2, backgroundColor: "#7F00FF" }}>
+              <IconButton sx={{ p: 2, backgroundColor: "#F4D03F" }}>
                 <CloudQueueIcon
                   sx={{ color: "white", width: "50px", height: "50px" }}
                 />
               </IconButton>
               <Box display="flex" flexDirection="column" gap={1}>
-                <Typography
-                  variant="h6"
-                  sx={{ color: "#7F00FF", fontWeight: "bold" }}
-                >
+                <Typography variant="h6" sx={{ fontWeight: "bold" }}>
                   Web Hosting
                 </Typography>
                 <Typography variant="p" sx={{ color: "grey" }}>
@@ -248,16 +232,13 @@ const Home = () => {
                 marginTop: "50px",
               }}
             >
-              <IconButton sx={{ p: 2, backgroundColor: "#7F00FF" }}>
+              <IconButton sx={{ p: 2, backgroundColor: "#F4D03F" }}>
                 <EmailIcon
                   sx={{ color: "white", width: "50px", height: "50px" }}
                 />
               </IconButton>
               <Box display="flex" flexDirection="column" gap={1}>
-                <Typography
-                  variant="h6"
-                  sx={{ color: "#7F00FF", fontWeight: "bold" }}
-                >
+                <Typography variant="h6" sx={{ fontWeight: "bold" }}>
                   Email Service
                 </Typography>
                 <Typography variant="p" sx={{ color: "grey" }}>
@@ -280,16 +261,13 @@ const Home = () => {
                 marginTop: "50px",
               }}
             >
-              <IconButton sx={{ p: 2, backgroundColor: "#7F00FF" }}>
+              <IconButton sx={{ p: 2, backgroundColor: "#F4D03F" }}>
                 <SmsIcon
                   sx={{ color: "white", width: "50px", height: "50px" }}
                 />
               </IconButton>
               <Box display="flex" flexDirection="column" gap={1}>
-                <Typography
-                  variant="h6"
-                  sx={{ color: "#7F00FF", fontWeight: "bold" }}
-                >
+                <Typography variant="h6" sx={{ fontWeight: "bold" }}>
                   Web SMS
                 </Typography>
                 <Typography variant="p" sx={{ color: "grey" }}>
@@ -316,9 +294,13 @@ const Home = () => {
         <Button
           variant="contained"
           sx={{
-            backgroundColor: "#7F00FF",
+            backgroundColor: "#F4D03F",
             borderRadius: "30px",
             p: "10px 50px",
+            color: "black",
+            "&:hover": {
+              backgroundColor: "yellow",
+            },
           }}
         >
           Get Started

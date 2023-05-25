@@ -28,11 +28,11 @@ const Footer = () => {
               variant="h5"
               sx={{
                 fontFamily: "Fasthand",
-                color: "#7F00FF",
+
                 textAlign: { xs: "center", md: "start" },
               }}
             >
-              G Creations
+              Techno Master Software Solutions
             </Typography>
             <Typography
               variant="p"
